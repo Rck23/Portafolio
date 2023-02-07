@@ -8,7 +8,7 @@
     var urlRetorno = string.IsNullOrEmpty(Context.Request.Path) ? "~/" : $"~{Context.Request.Path.Value}";
 }
 
-<!-- SE CREARA UNA COOKIE PARA RECORDAR EL IDIOMA-->
+
 <form class="idioma" asp-controller="Portafolio" asp-action="CambiarIdioma"
       asp-route-urlRetorno="@urlRetorno" method="post" class="form-horizontal"
       role="form" style="display: inline">
