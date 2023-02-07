@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Mvc;
 using Portafolio.Models;
 using System.Diagnostics;
 
@@ -27,6 +28,18 @@ namespace Portafolio.Controllers
         {
 
             return View();
+        }
+
+        //ACCIÓN CAMBIAR IDIOMA & CREACION DE COOKIE DE IDIOMA
+        public IActionResult CambiarIdioma(string cultura, string urlRetorno)
+        {
+            Response.Cookies.Append(CookieRequestCultureProvider.DefaultCookieName,
+                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(cultura)),
+
+                    new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) }
+                );
+
+            return LocalRedirect(urlRetorno);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
