@@ -13,20 +13,29 @@ html {
     font-size: 16px;
 }
 
+
 @media (max-width: 992px) {
     html {
         font-size: 15px;
     }
+    .img-yo {
+        display: block;
+        width: 70%;
+        margin: auto;
+    }
+
     .container-body {
         margin: 2rem;
     }
+
     .content {
-        top:30%;
+        top: 30%;
     }
+
     .content {
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
+
     .in-flex {
         flex: 1;
         min-width: 220px;
@@ -41,16 +50,45 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex1 {
+    .in-flex  aside {
         padding: 25px;
         margin: 20px;
     }
+        .in-flex h1 {
+            font-size: 21px;
+        }
 
+        .in-flex h3 {
+            color: white;
+            font-size: 16px;
+            margin-bottom: 50px;
+        }
+
+        .in-flex h4 {
+            color: #e1e1e1;
+            letter-spacing: 2px;
+            font-size: 18px;
+        }
+
+        .in-flex p, h6 {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 16px;
+            font-size: 14px;
+            margin-bottom: 45px;
+        }
 }
-@media (min-width: 768px) {
+
+@media (max-width: 768px) {
     html {
         font-size: 14px;
     }
+    .img-yo {
+        display: block;
+        width: 62%;
+        margin: auto;
+    }
+
     .container-body {
         margin: 2rem;
     }
@@ -60,13 +98,12 @@ html {
     }
 
     .content {
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .in-flex {
         flex: 1;
-        min-width: 220px;
+        min-width: 200px;
         display: grid;
         place-items: center;
     }
@@ -78,15 +115,40 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex1 {
+    .in-flex aside {
         padding: 20px;
         margin: 15px;
     }
+        .in-flex h1 {
+            font-size: 21px;
+        }
 
+        .in-flex h3 {
+            color: white;
+            font-size: 15px;
+            margin-bottom: 50px;
+        }
+
+        .in-flex h4 {
+            color: #e1e1e1;
+            letter-spacing: 2px;
+            font-size: 16px;
+        }
+
+        .in-flex p, h6 {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 16px;
+            font-size: 13px;
+            margin-bottom: 45px;
+        }
 }
+
 @media (max-width: 519px) {
     .img-yo {
-        width: 350px;
+        display: block;
+        width: 48%;
+        margin: auto;
     }
 
     html {
@@ -99,8 +161,7 @@ html {
     }
 
     .content {
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .in-flex {
@@ -117,26 +178,52 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex1 {
+    .in-flex aside {
         padding: 10px;
         margin: 10px;
     }
+        .in-flex h1 {
+            font-size: 19px;
+        }
+
+        .in-flex h3 {
+            color: white;
+            font-size: 15px;
+            margin-bottom: 50px;
+        }
+
+        .in-flex h4 {
+            color: #e1e1e1;
+            letter-spacing: 2px;
+            font-size: 16px;
+        }
+
+        .in-flex p, h6 {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 16px;
+            font-size: 13px;
+            margin-bottom: 45px;
+        }
 }
 
 @media (max-width: 494px) {
     .img-yo {
-        width: 360px;
+        display: block;
+        width: 35%;
+        margin: auto;
     }
-    html{
-        font-size:14px; 
+
+    html {
+        font-size: 14px;
     }
+
     .container-body {
         margin: 2rem;
     }
 
     .content {
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .in-flex {
@@ -153,17 +240,40 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex1 {
+    .in-flex aside {
         padding: 10px;
         margin: 10px;
     }
+        .in-flex h1 {
+            font-size: 20px;
+        }
 
+        .in-flex h3 {
+            color: white;
+            font-size: 15px;
+            margin-bottom: 50px;
+        }
 
+        .in-flex h4 {
+            color: #e1e1e1;
+            letter-spacing: 2px;
+            font-size: 16px;
+        }
+
+        .in-flex p, h6 {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 16px;
+            font-size: 13px;
+            margin-bottom: 45px;
+        }
 }
 
 @media (max-width: 419px) {
     .img-yo {
-        width: 290px;
+        display: block;
+        width: 22%;
+        margin: auto;
     }
     html {
         font-size: 13px;
@@ -174,8 +284,7 @@ html {
     }
 
     .content {
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .in-flex {
@@ -192,22 +301,44 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex1 {
+    .in-flex aside {
         padding: 5px;
         margin: 5px;
     }
-        .in-flex1 form {
-            text-align:center;
-            margin:15px;
-            
+
+        .in-flex h1 {
+            font-size: 18px;
         }
+
+        .in-flex h3 {
+            color: white;
+            font-size: 15px;
+            margin-bottom: 50px;
+        }
+
+        .in-flex h4 {
+            color: #e1e1e1;
+            letter-spacing: 2px;
+            font-size: 16px;
+        }
+
+        .in-flex p, h6 {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 16px;
+            font-size: 13px;
+            margin-bottom: 45px;
+        }
+ 
 }
 
 @media (max-width: 378px) {
     .img-yo {
-        width: 240px;
-        
+        display: block;
+        width: 20%;
+        margin: auto;
     }
+
     html {
         font-size: 11px;
     }
@@ -217,8 +348,7 @@ html {
     }
 
     .content {
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .in-flex {
@@ -235,18 +365,42 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex1 {
+    .in-flex aside {
         padding: 10px;
         margin: 10px;
     }
+        .in-flex h1 {
+            font-size: 18px;
+        }
 
+        .in-flex h3 {
+            color: white;
+            font-size: 15px;
+            margin-bottom: 50px;
+        }
 
+        .in-flex h4 {
+            color: #e1e1e1;
+            letter-spacing: 2px;
+            font-size: 16px;
+        }
+
+        .in-flex p, h6 {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 16px;
+            font-size: 13px;
+            margin-bottom: 45px;
+        }
 }
 
 @media (max-width: 328px) {
     .img-yo {
-        width: 150px;
+        display: block;
+        width: 15%;
+        margin: auto;
     }
+
     html {
         font-size: 8px;
     }
@@ -256,8 +410,7 @@ html {
     }
 
     .content {
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .in-flex {
@@ -274,17 +427,41 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex1 {
+    .in-flex aside{
         padding: 3px;
         margin: 3px;
         font-size: 8px;
     }
-   
+        .in-flex h1 {
+            font-size: 18px;
+        }
+
+        .in-flex h3 {
+            color: white;
+            font-size: 15px;
+            margin-bottom: 50px;
+        }
+
+        .in-flex h4 {
+            color: #e1e1e1;
+            letter-spacing: 2px;
+            font-size: 16px;
+        }
+
+        .in-flex p, h6 {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 16px;
+            font-size: 12px;
+            margin-bottom: 45px;
+        }
 }
 
 @media (max-width: 283px) {
     .img-yo {
-        width: 100px;
+        display: block;
+        width: 10%;
+        margin: auto;
     }
 
     html {
@@ -296,8 +473,7 @@ html {
     }
 
     .content {
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction:column;
     }
 
     .in-flex {
@@ -314,36 +490,38 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex1 {
+    .in-flex {
         padding: 0px;
         margin: 0px;
         font-size: 5px;
         margin-bottom: 30%;
     }
-        .in-flex1 h1 {
-            font-size: 22px;
+
+        .in-flex h1 {
+            font-size: 18px;
         }
 
-        .in-flex1 h3 {
+        .in-flex h3 {
             color: white;
-            font-size: 17px;
+            font-size: 15px;
             margin-bottom: 50px;
         }
 
-        .in-flex1 h4 {
+        .in-flex h4 {
             color: #e1e1e1;
             letter-spacing: 2px;
-            font-size: 19px;
+            font-size: 16px;
         }
 
-        .in-flex1 p, h6 {
+        .in-flex p, h6 {
             color: #e1e1e1;
             letter-spacing: 1px;
             line-height: 16px;
-            font-size: 13px;
+            font-size: 11px;
             margin-bottom: 45px;
         }
 }
+
 
 
 
@@ -382,6 +560,7 @@ p, h6 {
 body {
     margin-bottom: 50px;
     background-color: #474b4e;
+   
 }
 
 header {
@@ -433,24 +612,46 @@ span {
 
 /* PÁGINA PRINCIPAL (INDEX)*/
 .content {
-    top: 50%;
-    left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .img-yo {
-    float: left;
-    margin-right: 15px;
-    min-width: 180px;
-    height: 100%;
-    max-width: 300px;
-    padding-bottom: .5rem
+    display: block;
+    width: 100%;
+ 
+    margin: auto;
+
 }
 
-aside{
-    display:grid; 
-    place-items:flex-start;
-    margin-left:15px;
+aside {
+    text-align: justify;
+    display: block;
+    width: 100%;
+    margin: auto;
 }
+
+.in-flex {
+    flex: 2;
+    min-width:200px;
+    
+}
+
+    .in-flex:first-child {
+        flex: 1;
+        padding: 25px;
+        margin: auto;
+       
+    }
+
+    .in-flex aside {
+        
+        padding: 25px;
+        margin: auto;
+    }
+
+
 
 
 .btn-primer-contacto {
