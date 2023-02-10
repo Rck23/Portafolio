@@ -20,7 +20,7 @@ html {
     }
     .img-yo {
         display: block;
-        width: 70%;
+        width: 50%;
         margin: auto;
     }
 
@@ -55,26 +55,26 @@ html {
         margin: 20px;
     }
         .in-flex h1 {
-            font-size: 21px;
+            font-size: 45px;
         }
 
         .in-flex h3 {
             color: white;
-            font-size: 16px;
+            font-size: 29px;
             margin-bottom: 50px;
         }
 
         .in-flex h4 {
             color: #e1e1e1;
             letter-spacing: 2px;
-            font-size: 18px;
+            font-size: 24px;
         }
 
         .in-flex p, h6 {
             color: #e1e1e1;
             letter-spacing: 1px;
             line-height: 16px;
-            font-size: 14px;
+            font-size: 18px;
             margin-bottom: 45px;
         }
 }
@@ -85,7 +85,7 @@ html {
     }
     .img-yo {
         display: block;
-        width: 62%;
+        width: 40%;
         margin: auto;
     }
 
@@ -120,34 +120,64 @@ html {
         margin: 15px;
     }
         .in-flex h1 {
-            font-size: 21px;
+            font-size: 35px;
         }
 
         .in-flex h3 {
             color: white;
-            font-size: 15px;
+            font-size: 25px;
             margin-bottom: 50px;
         }
 
         .in-flex h4 {
             color: #e1e1e1;
             letter-spacing: 2px;
-            font-size: 16px;
+            font-size: 20px;
         }
 
         .in-flex p, h6 {
             color: #e1e1e1;
             letter-spacing: 1px;
             line-height: 16px;
-            font-size: 13px;
+            font-size: 16px;
             margin-bottom: 45px;
         }
+ 
+    .footer p{
+        text-align:center; 
+        margin-bottom:10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px){
+    .redes {
+        display: flex;
+        justify-content: center;
+    }
+        .redes li {
+            align-self: center;
+            margin-bottom:15px;
+        }
+
+
+        .footer p {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+    .contacto form{
+        display: grid;
+       place-content:center;
+    }
+
+
 }
 
 @media (max-width: 519px) {
     .img-yo {
         display: block;
-        width: 48%;
+        width: 30%;
         margin: auto;
     }
 
@@ -183,26 +213,26 @@ html {
         margin: 10px;
     }
         .in-flex h1 {
-            font-size: 19px;
+            font-size: 22px;
         }
 
         .in-flex h3 {
             color: white;
-            font-size: 15px;
+            font-size: 18px;
             margin-bottom: 50px;
         }
 
         .in-flex h4 {
             color: #e1e1e1;
             letter-spacing: 2px;
-            font-size: 16px;
+            font-size: 20px;
         }
 
         .in-flex p, h6 {
             color: #e1e1e1;
             letter-spacing: 1px;
             line-height: 16px;
-            font-size: 13px;
+            font-size: 15px;
             margin-bottom: 45px;
         }
 }
@@ -210,7 +240,7 @@ html {
 @media (max-width: 494px) {
     .img-yo {
         display: block;
-        width: 35%;
+        width: 20%;
         margin: auto;
     }
 
@@ -250,21 +280,21 @@ html {
 
         .in-flex h3 {
             color: white;
-            font-size: 15px;
+            font-size: 18px;
             margin-bottom: 50px;
         }
 
         .in-flex h4 {
             color: #e1e1e1;
             letter-spacing: 2px;
-            font-size: 16px;
+            font-size: 19px;
         }
 
         .in-flex p, h6 {
             color: #e1e1e1;
             letter-spacing: 1px;
             line-height: 16px;
-            font-size: 13px;
+            font-size: 15px;
             margin-bottom: 45px;
         }
 }
@@ -272,7 +302,7 @@ html {
 @media (max-width: 419px) {
     .img-yo {
         display: block;
-        width: 22%;
+        width: 15%;
         margin: auto;
     }
     html {
@@ -335,7 +365,7 @@ html {
 @media (max-width: 378px) {
     .img-yo {
         display: block;
-        width: 20%;
+        width: 15%;
         margin: auto;
     }
 
@@ -520,6 +550,9 @@ html {
             font-size: 11px;
             margin-bottom: 45px;
         }
+    .contacto{
+        margin-bottom:15px;
+    }
 }
 
 
