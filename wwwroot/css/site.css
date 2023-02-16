@@ -13,11 +13,11 @@ html {
     font-size: 16px;
 }
 
-
 @media (max-width: 992px) {
     html {
         font-size: 15px;
     }
+
     .img-yo {
         display: block;
         width: 50%;
@@ -50,10 +50,11 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex  aside {
-        padding: 25px;
-        margin: 20px;
-    }
+        .in-flex aside {
+            padding: 25px;
+            margin: 20px;
+        }
+
         .in-flex h1 {
             font-size: 45px;
         }
@@ -83,6 +84,7 @@ html {
     html {
         font-size: 14px;
     }
+
     .img-yo {
         display: block;
         width: 40%;
@@ -115,10 +117,11 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex aside {
-        padding: 20px;
-        margin: 15px;
-    }
+        .in-flex aside {
+            padding: 20px;
+            margin: 15px;
+        }
+
         .in-flex h1 {
             font-size: 35px;
         }
@@ -142,36 +145,36 @@ html {
             font-size: 16px;
             margin-bottom: 45px;
         }
- 
-    .footer p{
-        text-align:center; 
-        margin-bottom:10px;
+
+    .footer p {
+        text-align: center;
+        margin-bottom: 10px;
         font-size: 14px;
     }
 }
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
     .redes {
         display: flex;
         justify-content: center;
     }
+
         .redes li {
             align-self: center;
-            margin-bottom:15px;
+            margin-bottom: 15px;
         }
 
 
-        .footer p {
-            text-align: center;
-            margin-bottom: 10px;
-            font-size: 12px;
-        }
-    .contacto form{
-        display: grid;
-       place-content:center;
+    .footer p {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 12px;
     }
 
-
+    .contacto form {
+        display: grid;
+        place-content: center;
+    }
 }
 
 @media (max-width: 519px) {
@@ -208,10 +211,11 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex aside {
-        padding: 10px;
-        margin: 10px;
-    }
+        .in-flex aside {
+            padding: 10px;
+            margin: 10px;
+        }
+
         .in-flex h1 {
             font-size: 22px;
         }
@@ -234,6 +238,16 @@ html {
             line-height: 16px;
             font-size: 15px;
             margin-bottom: 45px;
+        }
+
+    .linea-seccion {
+        display: grid;
+        margin-bottom:15px;
+    }
+
+        .linea-seccion .linea-items {
+            align-self: center;
+            justify-self: center;
         }
 }
 
@@ -270,10 +284,11 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex aside {
-        padding: 10px;
-        margin: 10px;
-    }
+        .in-flex aside {
+            padding: 10px;
+            margin: 10px;
+        }
+
         .in-flex h1 {
             font-size: 20px;
         }
@@ -305,6 +320,7 @@ html {
         width: 15%;
         margin: auto;
     }
+
     html {
         font-size: 13px;
     }
@@ -331,10 +347,10 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex aside {
-        padding: 5px;
-        margin: 5px;
-    }
+        .in-flex aside {
+            padding: 5px;
+            margin: 5px;
+        }
 
         .in-flex h1 {
             font-size: 18px;
@@ -359,7 +375,12 @@ html {
             font-size: 13px;
             margin-bottom: 45px;
         }
- 
+
+    .btn-proyectos {
+        display: block;
+        margin: 1em auto;
+        text-align:center;
+    }
 }
 
 @media (max-width: 378px) {
@@ -395,10 +416,11 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex aside {
-        padding: 10px;
-        margin: 10px;
-    }
+        .in-flex aside {
+            padding: 10px;
+            margin: 10px;
+        }
+
         .in-flex h1 {
             font-size: 18px;
         }
@@ -457,11 +479,12 @@ html {
             margin-bottom: 0px;
         }
 
-    .in-flex aside{
-        padding: 3px;
-        margin: 3px;
-        font-size: 8px;
-    }
+        .in-flex aside {
+            padding: 3px;
+            margin: 3px;
+            font-size: 8px;
+        }
+
         .in-flex h1 {
             font-size: 18px;
         }
@@ -503,7 +526,7 @@ html {
     }
 
     .content {
-        flex-direction:column;
+        flex-direction: column;
     }
 
     .in-flex {
@@ -550,13 +573,11 @@ html {
             font-size: 11px;
             margin-bottom: 45px;
         }
-    .contacto{
-        margin-bottom:15px;
+
+    .contacto {
+        margin-bottom: 15px;
     }
 }
-
-
-
 
 h1 {
     color: white;
@@ -587,13 +608,11 @@ p, h6 {
 
 .container-body {
     margin: 4rem;
-   
 }
 
 body {
     margin-bottom: 50px;
     background-color: #474b4e;
-   
 }
 
 header {
@@ -633,29 +652,26 @@ span {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    margin-right:2rem;
-    
+    margin-right: 2rem;
 }
+
     .idioma select {
-       color: #fff;
-       background-color:#191919;
-       font-size:15px;
-       border:none;
+        color: #fff;
+        background-color: #191919;
+        font-size: 15px;
+        border: none;
     }
 
 /* PÁGINA PRINCIPAL (INDEX)*/
 .content {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .img-yo {
     display: block;
     width: 100%;
- 
     margin: auto;
-
 }
 
 aside {
@@ -667,24 +683,19 @@ aside {
 
 .in-flex {
     flex: 2;
-    min-width:200px;
-    
+    min-width: 200px;
 }
 
     .in-flex:first-child {
         flex: 1;
         padding: 25px;
         margin: auto;
-       
     }
 
     .in-flex aside {
-        
         padding: 25px;
         margin: auto;
     }
-
-
 
 
 .btn-primer-contacto {
@@ -710,7 +721,6 @@ aside {
 
 
 /* SOBRE MI */
-
 .about {
     width: 100%;
     padding: 0px;
@@ -781,10 +791,7 @@ aside {
         cursor: pointer;
     }
 
-
-
 /* PROYECTOS*/
-
 .btn-proyectos {
     background-color: #5dc1b9;
     color: white;
@@ -888,7 +895,6 @@ aside {
     margin-bottom: 11px;
 }
 
-/* responsive */
 @media(max-width: 992px) {
     .btn-proyectos {
         background-color: #5dc1b9;
@@ -927,10 +933,7 @@ aside {
     }
 }
 
-
-
 /* FOOTER */
-
 footer {
     position: absolute;
     right: 0;
@@ -1023,5 +1026,3 @@ footer {
         width: 34px;
         font-size: 14px
     }
-
-
