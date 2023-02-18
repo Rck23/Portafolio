@@ -30,7 +30,7 @@ steps:
     restoreSolution: '$(solution)'
 
 - task: DotNetCoreCLI@2
-  displayName: 'Construyendo los cambios...'
+  displayName: 'Construyendo los artefactos...'
   inputs:
     command: 'publish'
     publishWebProjects: false
@@ -40,5 +40,4 @@ steps:
     modifyOutputPath: false
 
 - task: PublishBuildArtifacts@1
-  displayName: 'Publicando los cambios'
-    
+  displayName: 'Publicando los artefactos'
