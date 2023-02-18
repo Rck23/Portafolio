@@ -20,7 +20,7 @@ html {
 
     .img-yo {
         display: block;
-        width: 50%;
+        width: 80%;
         margin: auto;
     }
 
@@ -29,11 +29,8 @@ html {
     }
 
     .content {
-        top: 30%;
-    }
-
-    .content {
         flex-direction: column;
+        margin: 0px;
     }
 
     .in-flex {
@@ -82,12 +79,13 @@ html {
 
 @media (max-width: 768px) {
     html {
-        font-size: 14px;
+        font-size: 18px;
     }
+
 
     .img-yo {
         display: block;
-        width: 40%;
+        width: 70%;
         margin: auto;
     }
 
@@ -96,15 +94,14 @@ html {
     }
 
     .content {
-        top: 30%;
+        flex-direction: column;
+
     }
 
-    .content {
-        flex-direction: column;
-    }
 
     .in-flex {
         flex: 1;
+       
         min-width: 200px;
         display: grid;
         place-items: center;
@@ -164,7 +161,12 @@ html {
             margin-bottom: 15px;
         }
 
-
+    .menunav{
+        margin:0.8em;
+    }
+    .menunav li{
+        margin: 0.4em;
+    }
     .footer p {
         text-align: center;
         margin-bottom: 10px;
@@ -180,12 +182,12 @@ html {
 @media (max-width: 519px) {
     .img-yo {
         display: block;
-        width: 30%;
+        width: 50%;
         margin: auto;
     }
 
     html {
-        font-size: 13px;
+        font-size: 16px;
     }
 
 
@@ -254,12 +256,12 @@ html {
 @media (max-width: 494px) {
     .img-yo {
         display: block;
-        width: 20%;
+        width: 50%;
         margin: auto;
     }
 
     html {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .container-body {
@@ -317,12 +319,12 @@ html {
 @media (max-width: 419px) {
     .img-yo {
         display: block;
-        width: 15%;
+        width: 45%;
         margin: auto;
     }
 
     html {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .container-body {
@@ -386,12 +388,12 @@ html {
 @media (max-width: 378px) {
     .img-yo {
         display: block;
-        width: 15%;
+        width: 35%;
         margin: auto;
     }
 
     html {
-        font-size: 11px;
+        font-size: 15px;
     }
 
     .container-body {
@@ -449,12 +451,12 @@ html {
 @media (max-width: 328px) {
     .img-yo {
         display: block;
-        width: 15%;
+        width: 35%;
         margin: auto;
     }
 
     html {
-        font-size: 8px;
+        font-size: 14px;
     }
 
     .container-body {
@@ -513,12 +515,12 @@ html {
 @media (max-width: 283px) {
     .img-yo {
         display: block;
-        width: 10%;
+        width: 25%;
         margin: auto;
     }
 
     html {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .container-body {
@@ -607,7 +609,7 @@ p, h6 {
 
 
 .container-body {
-    margin: 4rem;
+    margin:0 4rem 5rem 4rem;
 }
 
 body {
@@ -631,7 +633,10 @@ header {
         font-weight: bold;
     }
 
-
+nav{
+    margin-bottom:2em;
+    
+}
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -666,6 +671,7 @@ span {
 .content {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .img-yo {
@@ -887,6 +893,26 @@ aside {
 
 .TecnologiasNET {
     background-color: #8B39BE;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 12px;
+    margin-bottom: 11px;
+}
+
+.TecnologiasJS {
+    background-color: #F0DB4F;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 12px;
+    margin-bottom: 11px;
+}
+
+.TecnologiasReact {
+    background-color: #61DBFB;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;

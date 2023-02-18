@@ -121,7 +121,7 @@
     <value>Hey! I am Ulises Martínez, a self-taught person in free time, I am passionate about technology &amp; the development of applications &amp; web pages, I'm actually a full-time student of Engineering in Software Development and Management. At present I work as a backend developer without losing sight of the frontend.</value>
   </data>
   <data name="2daPresentacion" xml:space="preserve">
-    <value>In my adventure in the world of development, I have been involved in the development of several projects, proposing challenges, which taught me to correct my mistakes when developing a Site or Application. You can see the work I do in the</value>
+    <value>In my adventure in the world of development, I have been involved in the development of several projects, proposing challenges, which taught me to correct my mistakes when developing a Site or Application. You can see the work I do in the </value>
   </data>
   <data name="contactame" xml:space="preserve">
     <value>You can contact me by the following means:</value>
@@ -151,7 +151,7 @@
     <value>ills</value>
   </data>
   <data name="Proyectos" xml:space="preserve">
-    <value>Projects</value>
+    <value> Projects</value>
   </data>
   <data name="tecnologíasFavoritas" xml:space="preserve">
     <value>My favorite technologies:</value>
