@@ -177,6 +177,16 @@ html {
         display: grid;
         place-content: center;
     }
+
+    .in-flex form {
+        display: grid;
+        place-content: center;
+    }
+
+    .about-text .Service {
+        display: grid;
+        place-content: center;
+    }
 }
 
 @media (max-width: 519px) {
