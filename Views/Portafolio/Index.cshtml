@@ -5,33 +5,37 @@
     ViewData["Title"] = @localizer["TituloPrincipal"];
 }
 
-<div class="text-justify home">
+<div class="text-justify ">
 
-    <div class="content container-body ">
+    <div class="container-body ">
 
 
-        <div class=" in-flex">
-            <img class="img-yo rounded" src="/img/Yo.jpg">
-        </div>
+        @*    <div class=" in-flex">
+        <img class="img-yo rounded" src="/img/Yo.jpg">
+        </div>*@
 
-        <aside class="in-flex">
-            <h4>@localizer["Saludo"]</h4>
-            <h1>{Ulises <span>Martínez</span>}</h1>
-            <h3><span>@localizer["Estudiante"]</span> @localizer["Carrera"]</h3>
-            <p>@localizer["Presentacion"]</p>
-            <h6>@localizer["Frase"]</h6>
+        <section class="about">
+            <div class="main">
+                <aside class="about-text">
+                    <h3>@localizer["Saludo"]</h3>
+                    <h1>{Ulises <span>Martínez</span>}</h1>
+                    <h3><span>@localizer["Estudiante"]</span> @localizer["Carrera"]</h3>
+                    <p>@localizer["Presentacion"]</p>
+                    <p>@localizer["Frase"]</p>
 
-            <form >
-                <a class="btn btn-primer-contacto" style="margin-right:1.2rem;" target="_blank" href="https://github.com/Rck23" data-toggle="tooltip" data-placement="top" title="GitHub">
-                    <i class="bi-github" role="img" aria-label="GitHub"></i> GitHub
-                </a>
+                    <form>
+                        <a class="btn btn-primer-contacto" style="margin-right:1.2rem;" target="_blank" href="https://github.com/Rck23" data-toggle="tooltip" data-placement="top" title="GitHub">
+                            <i class="bi-github" role="img" aria-label="GitHub"></i> GitHub
+                        </a>
 
-                <a class="btn btn-primer-contacto" target="_blank" href="https://www.linkedin.com/in/ulises-mart%C3%ADnez-olivares-09276b258/" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                        <a class="btn btn-primer-contacto" target="_blank" href="https://www.linkedin.com/in/ulises-mart%C3%ADnez-olivares-09276b258/" data-toggle="tooltip" data-placement="top" title="Linkedin">
 
-                    <i class="bi-linkedin" role="img" aria-label="Linkedin"></i> Linkedin
-                </a>
-            </form>
-        </aside>
+                            <i class="bi-linkedin" role="img" aria-label="Linkedin"></i> Linkedin
+                        </a>
+                    </form>
+                </aside>
+            </div>
+        </section>
     </div>
 </div>
 

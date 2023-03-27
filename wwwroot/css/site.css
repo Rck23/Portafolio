@@ -15,7 +15,7 @@ html {
 
 @media (max-width: 992px) {
     html {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .img-yo {
@@ -311,6 +311,87 @@ html {
     }
 }
 
+@media (max-width: 696px) {
+    html {
+        font-size: 15px;
+    }
+
+
+ /*   .img-yo {
+        display: block;
+        width: 70%;
+        margin: auto;
+    }*/
+
+    .container-body {
+        margin: 2rem;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+
+    .in-flex {
+        flex: 1;
+        min-width: 200px;
+        display: grid;
+        
+        place-items: center;
+    }
+
+        .in-flex:first-child {
+            flex: 2;
+            padding: 20px;
+            margin: 15px;
+            margin-bottom: 0px;
+        }
+
+        .in-flex aside {
+            padding: 20px;
+            margin: 15px;
+            text-align:center;
+        }
+
+        .in-flex h1 {
+            font-size: 40px;
+        }
+
+        .in-flex h3 {
+            color: white;
+            font-size: 27px;
+            margin-bottom: 50px;
+        }
+
+        .in-flex h4 {
+            color: #e1e1e1;
+            letter-spacing: 2px;
+            font-size: 30px;
+        }
+
+        .in-flex p {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 30px;
+            font-size: 25px;
+            margin-bottom: 45px;
+        }
+
+        .in-flex h6 {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 30px;
+            font-size: 27px;
+            margin-bottom: 45px;
+        }
+
+    .footer {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 576px) {
     html {
         font-size: 20px;
@@ -345,26 +426,26 @@ html {
         }
 
         .in-flex h1 {
-            font-size: 40px;
+            font-size: 39px;
         }
 
         .in-flex h3 {
             color: white;
-            font-size: 33px;
+            font-size: 26px;
             margin-bottom: 50px;
         }
 
         .in-flex h4 {
             color: #e1e1e1;
             letter-spacing: 2px;
-            font-size: 29px;
+            font-size: 30px;
         }
 
-        .in-flex p, h6 {
+        .in-flex p{
             color: #e1e1e1;
             letter-spacing: 1px;
             line-height: 29px;
-            font-size: 26px;
+            font-size: 25px;
             margin-bottom: 45px;
         }
         .in-flex h6 {
@@ -467,20 +548,28 @@ html {
 
         .in-flex h3 {
             color: white;
-            font-size: 28px;
+            font-size: 25px;
             margin-bottom: 50px;
         }
 
         .in-flex h4 {
             color: #e1e1e1;
             letter-spacing: 2px;
-            font-size: 26px;
+            font-size: 28px;
         }
 
-        .in-flex p, h6 {
+        .in-flex p {
             color: #e1e1e1;
             letter-spacing: 1px;
-            line-height: 16px;
+            line-height: 22px;
+            font-size: 22px;
+            margin-bottom: 45px;
+        }
+
+        .in-flex h6 {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 22px;
             font-size: 20px;
             margin-bottom: 45px;
         }
@@ -538,7 +627,7 @@ html {
         }
 
         .in-flex h1 {
-            font-size: 30px;
+            font-size: 22px;
         }
 
         .in-flex h3 {
@@ -556,8 +645,8 @@ html {
         .in-flex p{
             color: #e1e1e1;
             letter-spacing: 1px;
-            line-height: 2px;
-            font-size: 20px;
+            line-height: 22px;
+            font-size: 21px;
             margin-bottom: 45px;
         }
 
@@ -570,6 +659,10 @@ html {
         }
     .about-text {
         margin-bottom: 3rem;
+        
+    }
+    .about-text h5{
+        font-size:39px;
     }
     .linea-items {
         margin-bottom: 3rem;
@@ -685,8 +778,8 @@ html {
 
         .in-flex:first-child {
             flex: 2;
-            padding: 10px;
-            margin: 10px;
+            padding: 5px;
+            margin: 5px;
             margin-bottom: 0px;
         }
 
@@ -696,25 +789,33 @@ html {
         }
 
         .in-flex h1 {
-            font-size: 26px;
+            font-size: 21px;
         }
 
         .in-flex h3 {
             color: white;
-            font-size: 19px;
+            font-size: 16px;
             margin-bottom: 50px;
         }
 
         .in-flex h4 {
             color: #e1e1e1;
-            letter-spacing: 2px;
-            font-size: 20px;
+            letter-spacing: 1px;
+            font-size: 18px;
         }
 
-        .in-flex p, h6 {
+        .in-flex p {
             color: #e1e1e1;
             letter-spacing: 1px;
-            line-height: 16px;
+            line-height: 20px;
+            font-size: 18px;
+            margin-bottom: 45px;
+        }
+
+        .in-flex h6 {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 19px;
             font-size: 17px;
             margin-bottom: 45px;
         }
@@ -723,6 +824,7 @@ html {
       
         margin-bottom: 55px;
     }
+
 }
 
 @media (max-width: 328px) {
@@ -1048,6 +1150,7 @@ aside {
     font-size: 30px;
     margin-bottom: 45px;
 }
+
 
 .Habilidades {
     width: 100px;
