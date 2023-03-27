@@ -505,10 +505,12 @@ html {
 
     html {
         font-size: 18px;
+      
     }
 
     .container-body {
-        margin: 2rem;
+        margin: 3rem;
+       
     }
 
     .content {
@@ -520,6 +522,7 @@ html {
         min-width: 140px;
         display: grid;
         place-items: center;
+        margin-bottom:3rem;
     }
 
         .in-flex:first-child {
@@ -550,13 +553,33 @@ html {
             font-size: 24px;
         }
 
-        .in-flex p, h6 {
+        .in-flex p{
             color: #e1e1e1;
             letter-spacing: 1px;
-            line-height: 16px;
+            line-height: 2px;
             font-size: 20px;
             margin-bottom: 45px;
         }
+
+        .in-flex h6 {
+            color: #e1e1e1;
+            letter-spacing: 1px;
+            line-height: 22px;
+            font-size: 20px;
+            margin-bottom: 45px;
+        }
+    .about-text {
+        margin-bottom: 3rem;
+    }
+    .linea-items {
+        margin-bottom: 3rem;
+    }
+    .container-body h1 {
+        
+        text-align:center;
+        margin-bottom:2rem;
+        font-size: 52px;
+    }
 }
 
 @media (max-width: 419px) {
@@ -626,6 +649,11 @@ html {
         margin: 1em auto;
         text-align:center;
     }
+
+   
+    .footer p{
+        font-size:15px;
+    }
 }
 
 @media (max-width: 378px) {
@@ -634,6 +662,7 @@ html {
         width: 35%;
         margin: auto;
     }
+    
 
     html {
         font-size: 17px;
@@ -689,6 +718,11 @@ html {
             font-size: 17px;
             margin-bottom: 45px;
         }
+
+    .linea-seccion {
+      
+        margin-bottom: 55px;
+    }
 }
 
 @media (max-width: 328px) {
