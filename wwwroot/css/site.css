@@ -1143,6 +1143,14 @@ aside {
     text-transform: capitalize;
 }
 
+.about-text h6 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 34px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
 .about-text p {
     color: #e1e1e1;
     letter-spacing: 1px;
