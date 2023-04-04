@@ -312,7 +312,7 @@ html {
 
 @media (max-width: 696px) {
     html {
-        font-size: 15px;
+        font-size: 16px;
     }
 
 
@@ -393,7 +393,7 @@ html {
 
 @media (max-width: 576px) {
     html {
-        font-size: 20px;
+        font-size: 15px;
     }
 
 
@@ -510,7 +510,7 @@ html {
     }
 
     html {
-        font-size: 20px;
+        font-size: 15px;
     }
 
 
@@ -592,7 +592,7 @@ html {
     }
 
     html {
-        font-size: 18px;
+        font-size: 15px;
       
     }
 
@@ -682,7 +682,7 @@ html {
     }
 
     html {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .container-body {
@@ -757,7 +757,7 @@ html {
     
 
     html {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .container-body {
@@ -834,7 +834,7 @@ html {
     }
 
     html {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .container-body {
