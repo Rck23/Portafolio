@@ -231,11 +231,10 @@ html {
         }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     html {
-        font-size: 22px;
+        font-size: 18px;
     }
-
 
     .img-yo {
         display: block;
