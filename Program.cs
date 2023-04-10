@@ -16,7 +16,6 @@ builder.Services.AddControllersWithViews()
             factoria.Create(typeof(RecursoCompartido));
     });
 
-builder.Services.AddTransient<IRepositorioProyectos, RepositorioProyectos>();
 
 builder.Services.AddLocalization(opciones =>
 {

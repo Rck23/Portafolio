@@ -9,12 +9,10 @@ namespace Portafolio.Controllers
     public class PortafolioController : Controller
     {
         private readonly ILogger<PortafolioController> _logger;
-        private readonly IRepositorioProyectos _repositorioProyectos;
 
-        public PortafolioController(ILogger<PortafolioController> logger, IRepositorioProyectos repositorioProyectos)
+        public PortafolioController(ILogger<PortafolioController> logger)
         {
             _logger = logger;
-           _repositorioProyectos = repositorioProyectos;
         }
         public IActionResult Index()
         {
@@ -28,9 +26,7 @@ namespace Portafolio.Controllers
 
         public IActionResult Proyectos()
         {
-            var proyectos = _repositorioProyectos.ObtenerProyectos().ToList();
-
-            return View(proyectos);
+            return View();
         }
 
         //ACCIÓN CAMBIAR IDIOMA & CREACION DE COOKIE DE IDIOMA
