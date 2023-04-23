@@ -18,7 +18,9 @@ html {
         font-size: 17px;
     }
 
-
+    .navbar-nav {
+        font-size: 16px;
+    }
     .container-body {
         margin: 2rem;
     }
@@ -29,6 +31,8 @@ html {
     }
 
 }
+
+
 
 @media (max-width: 912px){
     html {
@@ -74,11 +78,14 @@ html {
 
 @media (max-width: 769px) {
     html {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .navbar-nav {
-        font-size: 16px;
+        margin-left:1rem;
+        margin-top: .8rem;
+        padding-left:1rem;
+        font-size: 19px;
     }
 
     .container-body {
@@ -89,22 +96,34 @@ html {
         flex-direction: column;
 
     }
-
-
+  
 
     .footer {
         text-align: center;
      
-        font-size: 17px;
+        font-size: 15px;
     }
 }
 
+@media (max-width: 768px) {
+
+
+    html {
+        font-size: 16px;
+    }
+
+    .navbar-nav {
+        font-size: 16px;
+    }
+
+
+}
 @media (max-width: 696px) {
     html {
-        font-size: 12px;
+        font-size: 17px;
     }
     .navbar-nav {
-        font-size: 14px;
+        font-size: 17px;
     }
 
     
@@ -125,10 +144,12 @@ html {
 
 @media (max-width: 576px) {
     html {
-        font-size: 15px;
+        font-size: 17px;
     }
 
-
+    .navbar-nav {
+        font-size: 17px;
+    }
     .container-body {
         margin: 2rem;
     }
@@ -187,9 +208,11 @@ html {
 
 
     html {
-        font-size: 15px;
+        font-size: 16px;
     }
-
+    .navbar-nav {
+        font-size: 17px;
+    }
 
     .container-body {
         margin: 2rem;
@@ -215,8 +238,12 @@ html {
  
 
     html {
-        font-size: 15px;
+        font-size: 17px;
       
+    }
+
+    .navbar-nav {
+        font-size: 17px;
     }
 
     .container-body {
@@ -251,9 +278,11 @@ html {
 
 
     html {
-        font-size: 14px;
+        font-size: 17px;
     }
-
+    .navbar-nav {
+        font-size: 17px;
+    }
     .container-body {
         margin: 1rem;
     }
@@ -279,9 +308,11 @@ html {
     
 
     html {
-        font-size: 15px;
+        font-size: 17px;
     }
-
+    .navbar-nav {
+        font-size: 17px;
+    }
     .container-body {
         margin: 1rem;
     }
@@ -301,7 +332,11 @@ html {
 @media (max-width: 328px) {
 
     html {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    .navbar-nav {
+        font-size: 16px;
     }
 
     .container-body {
@@ -319,7 +354,11 @@ html {
 
 
     html {
-        font-size: 14px;
+        font-size: 15px;
+    }
+
+    .navbar-nav {
+        font-size: 15px;
     }
 
     .container-body {
@@ -338,26 +377,26 @@ html {
 h1 {
     color: white;
     margin: 20px 0px 20px;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 h3 {
     color: white;
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 50px;
 }
 
 h4 {
     color: #e1e1e1;
     letter-spacing: 2px;
-    font-size: 48px;
+    font-size: 45px;
 }
 
 p, h6 {
     color: #e1e1e1;
     letter-spacing: 1px;
     line-height: 41px;
-    font-size: 33px;
+    font-size: 30px;
     margin-bottom: 45px;
 }
 
@@ -369,6 +408,8 @@ p, h6 {
 body {
     margin-bottom: 50px;
     background-color: #474b4e;
+
+
 }
 
 header {
