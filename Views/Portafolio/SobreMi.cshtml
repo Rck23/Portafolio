@@ -7,46 +7,46 @@
 
 <div class="text-justify">
     <div class="container-body">
-        <h1><span>@localizer["TituloLetra"]</span>@localizer["TituloPag"]</h1>
+        <h1 data-aos="zoom-out-right" data-aos-duration="900"><span>@localizer["TituloLetra"]</span>@localizer["TituloPag"]</h1>
 
         <section class="about">
             <div class="main">
                 <div class="about-text">
 
-                    <h5>
+                    <h5 data-aos="zoom-out-left" data-aos-duration="900">
                         @localizer["Estudiante"]<span> @localizer["Desarrollador"]</span></h5>
-                    <p>
+                    <p data-aos="zoom-out-right" data-aos-duration="900">
                        
                         @localizer["1eraPresentacion"]
                     </p>
-                    <p>
+                    <p data-aos="zoom-out-left" data-aos-duration="900">
                         @localizer["2daPresentacion"]<a class="Enlace_proyect" asp-controller="Portafolio" asp-action="Proyectos"><span> @localizer["Proyectos"]</span></a>.
                     </p>
 
-                    <h5>{@localizer["habilidad1"]<span>@localizer["habilidad2"]</span>@localizer["habilidad3"]}</h5>
+                    <h5 data-aos="zoom-out-right" data-aos-duration="900">{@localizer["habilidad1"]<span>@localizer["habilidad2"]</span>@localizer["habilidad3"]}</h5>
 
-                    <p>
+                    <p data-aos="zoom-out-left" data-aos-duration="900">
                         @localizer["tecnologíasFavoritas"]
                     </p>
 
                     <div class="Service">
 
-                        <img src="https://www.svgrepo.com/show/452092/react.svg" class="img-fluid Habilidades" alt="Responsive image">
-                        <img src="/img/ionic logo blue.svg" class="img-fluid Habilidades" alt="Responsive image">
-                        <img src="/img/c.svg" class="img-fluid Habilidades" alt="Responsive image">
-                        <img src="/img/NET_Core_Logo.svg.png" class="img-fluid Habilidades" alt="Responsive image">
-                        <img src="/img/sql-server.svg" class="img-fluid Habilidades " alt="Responsive image">
-                        <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-3-1175138.png" class="img-fluid Habilidades" alt="Responsive image">
-                        <img src="https://www.svgrepo.com/show/303251/mysql-logo.svg" class="img-fluid Habilidades" alt="Responsive image">
+                        <img data-aos="flip-right" data-aos-duration="900" src="https://www.svgrepo.com/show/452092/react.svg" class="img-fluid Habilidades" alt="Responsive image">
+                        <img data-aos="flip-left" data-aos-duration="900" src="/img/ionic logo blue.svg" class="img-fluid Habilidades" alt="Responsive image">
+                        <img data-aos="flip-right" data-aos-duration="900" src="/img/c.svg" class="img-fluid Habilidades" alt="Responsive image">
+                        <img data-aos="flip-left" data-aos-duration="900" src="/img/NET_Core_Logo.svg.png" class="img-fluid Habilidades" alt="Responsive image">
+                        <img data-aos="flip-right" data-aos-duration="900" src="/img/sql-server.svg" class="img-fluid Habilidades " alt="Responsive image">
+                        <img data-aos="flip-left" data-aos-duration="900" src="https://cdn.iconscout.com/icon/free/png-256/mongodb-3-1175138.png" class="img-fluid Habilidades" alt="Responsive image">
+                        <img data-aos="flip-right" data-aos-duration="900" src="https://www.svgrepo.com/show/303251/mysql-logo.svg" class="img-fluid Habilidades" alt="Responsive image">
                     </div>
 
-                    <h5>{@localizer["contacto1"]<span>@localizer["contacto2"]</span>@localizer["contacto3"]}</h5>
+                    <h5 data-aos="zoom-out-right" data-aos-duration="900">{@localizer["contacto1"]<span>@localizer["contacto2"]</span>@localizer["contacto3"]}</h5>
 
-                    <p>
+                    <p data-aos="zoom-out-left" data-aos-duration="900">
                         @localizer["contactame"]
                     </p>
 
-                    <div class="contacto">
+                    <div class="contacto" data-aos="zoom-in" data-aos-duration="900">
                         <div class="contacto">
                             <form>
                                 <a class="btn" style="margin-right:1.2rem;" target="_blank" href="https://github.com/Rck23" data-toggle="tooltip" data-placement="top" title="GitHub">
@@ -76,3 +76,8 @@
 </div>
 
 
+@section Scripts {
+    <script>
+        AOS.init();
+    </script>
+}

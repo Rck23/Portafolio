@@ -12,21 +12,21 @@
 
         <div class="row">
             <div class="col-lg-6 d-flex align-items-center">
-                <img src="./img/Yo.jpg" alt="Imagen" class="img-fluid rounded-pill">
+                <img data-aos="fade-down" data-aos-duration="900" src="./img/Yo.jpg" alt="Imagen" class="img-fluid rounded-pill">
             </div>
             <div class="col-lg-6  mt-3">
 
-                <h1>@localizer["Saludo"] Ulises <span>Martínez</span></h1>
+                <h1 data-aos="zoom-in-up" data-aos-duration="900">@localizer["Saludo"] Ulises <span>Martínez</span></h1>
 
                 <section class="about">
                     <div class="main">
                         <div class="about-text">
 
-                            <h6><span>@localizer["Estudiante"]</span> @localizer["Carrera"]</h6>
-                            <p>@localizer["Presentacion"]</p>
-                            <p>@localizer["Frase"]</p>
+                            <h6 data-aos="zoom-out" data-aos-duration="900"><span>@localizer["Estudiante"]</span> @localizer["Carrera"]</h6>
+                            <p data-aos="zoom-out-right" data-aos-duration="900">@localizer["Presentacion"]</p>
+                            <p data-aos="zoom-out-left" data-aos-duration="900">@localizer["Frase"]</p>
 
-                            <div class="contacto">
+                            <div class="contacto" data-aos="zoom-in" data-aos-duration="900">
                                 <form>
                                     <a class="btn btn-primer-contacto" style="margin-right:1.2rem;" target="_blank" href="https://github.com/Rck23" data-toggle="tooltip" data-placement="top" title="GitHub">
                                         <i class="bi-github" role="img" aria-label="GitHub"></i> GitHub
@@ -48,3 +48,8 @@
     </div>
 </div>
 
+@section Scripts {
+    <script>
+        AOS.init();
+    </script>
+}
