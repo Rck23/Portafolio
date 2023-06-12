@@ -7,19 +7,29 @@
 
 <div class="text-justify">
     <div class="container-body">
+
         <h1 data-aos="zoom-out-right" data-aos-duration="900"><span>@localizer["TituloLetra"]</span>@localizer["TituloPag"]</h1>
 
         <section class="about">
             <div class="main">
                 <div class="about-text">
+                    <div class="row">
+                        <div class="col-lg-9">
 
-                    <h5 data-aos="zoom-out-left" data-aos-duration="900">
-                        @localizer["Estudiante"]<span> @localizer["Desarrollador"]</span></h5>
-                    <p data-aos="zoom-out-right" data-aos-duration="900">
-                       
-                        @localizer["1eraPresentacion"]
-                    </p>
-                    <p data-aos="zoom-out-left" data-aos-duration="900">
+                            <h5 data-aos="zoom-out-left" data-aos-duration="900">
+                                @localizer["Estudiante"]<span> @localizer["Desarrollador"]</span>
+                            </h5>
+                            <p data-aos="zoom-out-right" data-aos-duration="900">
+
+                                @localizer["1eraPresentacion"]
+                            </p>
+                        </div>
+
+                        <div class="col-lg-3 d-flex align-items-center">
+                            <img data-aos="fade-down" data-aos-duration="900" src="/img/y.jpg" alt="Imagen" class=" img-fluid rounded-pill">
+                        </div>
+                    </div>
+                    <p data-aos="zoom-out-left" data-aos-duration="900" class="mt-3">
                         @localizer["2daPresentacion"]<a class="Enlace_proyect" asp-controller="Portafolio" asp-action="Proyectos"><span> @localizer["Proyectos"]</span></a>.
                     </p>
 
@@ -50,17 +60,17 @@
                         <div class="contacto">
                             <form>
                                 <a class="btn" style="margin-right:1.2rem;" target="_blank" href="https://github.com/Rck23" data-toggle="tooltip" data-placement="top" title="GitHub">
-                          
+
                                     <i class="bi-github" role="img" aria-label="GitHub"></i> GitHub
                                 </a>
 
                                 <a class="btn" target="_blank" href="https://www.linkedin.com/in/ulises-mart%C3%ADnez-olivares-09276b258/" data-toggle="tooltip" data-placement="top" title="Linkedin">
-                              
+
                                     <i class="bi-linkedin" role="img" aria-label="Linkedin"></i> Linkedin
                                 </a>
 
                                 <a class="btn" target="_blank" href="https://www.instagram.com/ulises_fc/" data-toggle="tooltip" data-placement="top" title="Instagram">
-                               
+
                                     <i class="bi bi-instagram" role="img" aria-label="Instagram"></i> Instagram
                                 </a>
                             </form>
@@ -71,7 +81,9 @@
                 </div>
             </div>
         </section>
+
     </div>
+
 
 </div>
 
@@ -80,4 +92,4 @@
     <script>
         AOS.init();
     </script>
-}
+    }
