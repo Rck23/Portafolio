@@ -593,7 +593,10 @@ aside {
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
-    border-radius: 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 15px 13px;
+   
 }
 
     .btn-proyectos:hover {
