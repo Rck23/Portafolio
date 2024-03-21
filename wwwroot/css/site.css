@@ -670,6 +670,15 @@ aside {
     border-radius: 5px;
     margin-bottom:30px;
 }
+    .linea-contenido img {
+        width: 100%; /* Resta el doble del padding horizontal del ancho del contenedor */
+        height: 50%;
+        object-fit: cover;
+        border-radius: 10px; /* Redondea las esquinas de la imagen */
+        top: 0; /* Ajusta la posición de la imagen en la parte superior del contenedor */
+        left: 0; /* Ajusta la posición de la imagen en la parte izquierda del contenedor */
+        margin: 0; /* Elimina cualquier margen que pueda afectar */
+    }
 
     .linea-contenido h3 {
         font-size: 30px;
