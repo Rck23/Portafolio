@@ -715,8 +715,80 @@ aside {
     margin-bottom: 11px;
 }
 
+.TecnologiasTS {
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
+.TecnologiasNext {
+    background-color: #000618;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
+.Tecnologiaspostgresql {
+    background-color: #2F6792;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
+
+.TecnologiasMySQl {
+    background-color: #F29111;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
+
+.TecnologiasSQlServer {
+    background-color: #b71c1c;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
 .TecnologiasReact {
     background-color: #61DBFB;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
+.TecnologiasVue {
+    background-color: #41B883;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
+.TecnologiasMongo {
+    background-color: #02543f;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
