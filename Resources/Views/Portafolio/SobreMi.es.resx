@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="1eraPresentacion" xml:space="preserve">
-    <value>¡Hey! Soy Ulises Martínez una persona autodidacta en tiempos libres, me apasiona la tecnología &amp; el desarrollo de aplicaciones &amp; páginas web, actualmente soy estudiante de Ingeniería en Desarrollo y Gestión de Software a tiempo completo. Actualmente me desempeño como desarrollador backend sin perder de vista el frontend.</value>
+    <value>¡Hey! Soy Ulises Martínez una persona autodidacta en tiempos libres, me apasiona la tecnología &amp; el desarrollo de aplicaciones &amp; páginas web, egresado de Ingeniería en Desarrollo y Gestión de Software. Actualmente me desempeño como desarrollador backend sin perder de vista el frontend.</value>
   </data>
   <data name="2daPresentacion" xml:space="preserve">
     <value>En mi aventura en el mundo del desarrollo, me he involucrado en el desarrollo de varios proyectos, proponiéndome retos, los cuales me enseñaron a corregir mis errores al desarrollar un Sitio o Aplicación. Puedes ver el trabajo que realizo en la sección de </value>
@@ -139,7 +139,7 @@
     <value>&amp; Desarrollador</value>
   </data>
   <data name="Estudiante" xml:space="preserve">
-    <value>Estudiante</value>
+    <value>Ingeniero</value>
   </data>
   <data name="habilidad1" xml:space="preserve">
     <value>Ha</value>

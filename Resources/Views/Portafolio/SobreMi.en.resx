@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="1eraPresentacion" xml:space="preserve">
-    <value>Hey! I am Ulises Martínez, a self-taught person in free time, I am passionate about technology &amp; the development of applications &amp; web pages, I'm actually a full-time student of Engineering in Software Development and Management. At present I work as a backend developer without losing sight of the frontend.</value>
+    <value>Hey! I am Ulises Martínez, a self-taught person in free time, I am passionate about technology &amp; the development of applications &amp; web pages, graduate of Engineering in Software Development and Management. At present I work as a backend developer without losing sight of the frontend.</value>
   </data>
   <data name="2daPresentacion" xml:space="preserve">
     <value>In my adventure in the world of development, I have been involved in the development of several projects, proposing challenges, which taught me to correct my mistakes when developing a Site or Application. You can see the work I do in the </value>
@@ -139,7 +139,7 @@
     <value>&amp; Developer</value>
   </data>
   <data name="Estudiante" xml:space="preserve">
-    <value>Student</value>
+    <value>Engineer</value>
   </data>
   <data name="habilidad1" xml:space="preserve">
     <value>S</value>

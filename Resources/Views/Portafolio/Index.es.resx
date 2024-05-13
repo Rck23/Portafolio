@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Carrera" xml:space="preserve">
-    <value>de Ingeniería en Desarrollo &amp; Gestión de Software.</value>
+    <value>en Desarrollo &amp; Gestión de Software.</value>
   </data>
   <data name="Estudiante" xml:space="preserve">
-    <value>Estudiante</value>
+    <value>Ingeniero</value>
   </data>
   <data name="Frase" xml:space="preserve">
     <value>Aportar conocimiento es la forma más pura de aprender.</value>

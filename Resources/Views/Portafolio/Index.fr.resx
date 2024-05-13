@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Carrera" xml:space="preserve">
-    <value>en ingénierie en développement &amp; gestion de logiciels.</value>
+    <value>en développement &amp; gestion de logiciels.</value>
   </data>
   <data name="Estudiante" xml:space="preserve">
-    <value>Étudiant</value>
+    <value>Ingénieur</value>
   </data>
   <data name="Frase" xml:space="preserve">
     <value>Apporter des connaissances est la manière la plus pure d’apprendre.</value>
